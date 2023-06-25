@@ -1,0 +1,4 @@
+1. First stage - run using Docker
+
+docker build -t <IMAGE_NAME> --build-arg OPENAI_API_KEY=<OPENAI_API_KEY> .
+docker run -it --rm <IMAGE_NAME> 
